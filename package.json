@@ -1,0 +1,44 @@
+{
+  "name": "tfk-seneca-seeiendom-lookup",
+  "version": "1.0.0",
+  "description": "Seeiendom service",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-seneca-seeiendom-lookup/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-seneca-seeiendom-lookup",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node service.js",
+    "isolated": "TFK_SENECA_SEEIENDOM_LOOKUP_ISOLATED=1 node service.js",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tfk-seneca-seeiendom-lookup.git"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.9",
+    "standard": "7.1.1",
+    "tap": "5.7.2"
+  },
+  "dependencies": {
+    "seeiendom": "3.0.0",
+    "seneca": "2.1.0",
+    "seneca-balance-client": "0.5.0",
+    "seneca-mesh": "0.7.0",
+    "tfk-utils-fix-address-for-seeiendom": "1.0.2",
+    "wgs84-util": "3.0.0"
+  }
+}
