@@ -1,6 +1,6 @@
 ###########################################################
 #
-# Dockerfile for tfk-seneca-session
+# Dockerfile for tfk-seneca-seeiendom-lookup
 #
 ###########################################################
 
