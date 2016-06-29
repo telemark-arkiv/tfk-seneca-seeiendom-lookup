@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-seeiendom-lookup",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Seeiendom service",
   "license": "MIT",
   "author": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/telemark/tfk-seneca-seeiendom-lookup",
   "main": "service.js",
   "engines": {
-    "node": ">=4.4.5"
+    "node": ">=4.4.7"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
