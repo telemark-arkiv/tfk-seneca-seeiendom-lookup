@@ -1,4 +1,6 @@
 # tfk-seneca-seeiendom-lookup
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-seneca-seeiendom-lookup.svg)](https://greenkeeper.io/)
 Looks up Seeiendom data
 
 ## Messages handled
