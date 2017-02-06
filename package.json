@@ -29,17 +29,17 @@
     "url": "git://github.com/telemark/tfk-seneca-seeiendom-lookup.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "10.0.0"
+    "tap": "10.0.2"
   },
   "dependencies": {
     "seeiendom": "4.0.0",
     "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
     "seneca-mesh": "0.9.0",
-    "tfk-utils-fix-address-for-seeiendom": "1.0.9",
+    "tfk-utils-fix-address-for-seeiendom": "1.0.10",
     "wgs84-util": "3.0.0"
   }
 }
